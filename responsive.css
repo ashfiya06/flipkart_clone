@@ -1,0 +1,10 @@
+@media (max-width:991px) {
+    .fa-bars  {
+        display: block;
+    } 
+    nav, .head-main{
+        display: none;
+    }
+}
+
+

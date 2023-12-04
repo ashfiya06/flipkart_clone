@@ -1,0 +1,244 @@
+:root{
+    --bg: #fff6e4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg);
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+.main-container{
+    max-width: 1920px;
+    margin: auto auto;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+header {
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo {
+    display: inline-block;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.head-main{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.section-main{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    /* min-height: 70px;
+    align-items: center; */
+    padding-block: 20px;
+    background: var(--bg);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: var(--bg);
+}
+.img{
+   min-height: 500px;
+   width: 90%;
+   border-radius: 10px;
+   margin-bottom: 40px;
+}
+.content{
+    position: absolute;
+    left: 21%;
+    top: 23%;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.fa-angle-down{
+    padding-inline: 10px;
+}
+.fa-cart-shopping{
+    padding-top: 7px;
+}
+.search{
+    max-width: 50%;
+    flex: 1;
+}
+.search > input {
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+}
+.bar{
+    padding: 10px;
+    position: absolute;
+}
+
+.fa-bars{
+    display: none;
+}
+
+.gap10{
+    gap: 10px;
+}
+.gap20{
+    gap:20px;
+}
+
+.text-center{
+    text-align: center;
+}
+.pad40{
+    padding-block: 40px;
+}
+.large{
+    font-size: xxx-large;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.cardbody{
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+    /* border-left: 2px solid #bababa ; */
+ flex-wrap: wrap;
+    
+}
+.card{
+    width: 310px;
+    /* height: 300px; */
+    text-align: center;
+    background-color: white ;
+    border-radius: 10px;
+    margin-inline: 20px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #f1cd92;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    color: black;
+}
+.card img{
+    width: 25%;
+}
+.btn{
+    background-color: #03A057;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/* footer begins */
+footer{
+    padding-inline: 100px;
+}
+
+.contact{
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 2px solid;
+ margin-bottom: 10px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+/* .line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+} */
+.Foot-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.Foot-last{
+    display: flex;
+    justify-content: space-between;
+   }
+   .Foot-last1{
+       display: flex;
+       justify-content: center;
+       gap: 10px;
+   }
+   .Foot-last1{
+       display: flex;
+       justify-content: space-between;
+       gap: 10px;
+   }
+   .Foot-main{
+    background-color: #fbf6f0;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+   }
+
+   /* footer end */
+   .Products{
+    display: flex;
+    justify-content: center;
+    /* border-left: 2px solid #bababa ; */
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.pic-Products{
+    width: 300px;
+    /* height: 300px; */
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #f1cd92;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.pic-Products img{
+    width: 40%;
+}
